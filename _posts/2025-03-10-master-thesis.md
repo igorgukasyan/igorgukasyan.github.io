@@ -11,5 +11,5 @@ Below, you can find the full version of my work, and the code is posted on githu
 
 In the next post, I will break down my thesis in simpler terms and share some extra thoughts that make it into the paper.
 
-<object data="/assets/master_thesis.pdf" width="1000" height="1000" type='application/pdf'></object>
+<iframe src="/assets/master_thesis.pdf" width="100%" height="1000px" style="border: none;"></iframe>
 
