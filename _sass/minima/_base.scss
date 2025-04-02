@@ -141,18 +141,41 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $brand-color;
-  border-left: 4px solid $border-color-01;
-  padding-left: $spacing-unit * .5;
-  @include relative-font-size(1.125);
-  font-style: italic;
+  color: #000000;
+  background-color: rgba(231,244,255,255); // Default blue background
+  border: 4px solid rgba(95,175,255,255); // Soft border around the entire blockquote
+  border-radius: 8px; // Soft rounded edges for a more refined look
+  padding: $spacing-unit * 1; // More space around the text
+  padding-left: $spacing-unit * 1; // Extra padding on the left for better readability
+  @include relative-font-size(1);
 
+  // Last child margin adjustment
   > :last-child {
     margin-bottom: 0;
   }
 
+  // Ensure the italic text is consistent
   i, em {
     font-style: normal;
+  }
+
+  // Customization for color (green, orange, blue)
+  &.green {
+    color: #000000;
+    background-color: rgba(237,249,232,255); // Soft green background
+    border-color: rgba(192,233,172,255); // Green border color
+  }
+
+  &.orange {
+    color: #000000;
+    background-color: rgba(254,243,231,255); // Soft orange background
+    border-color: rgba(253,199,142,255); // Orange border color
+  }
+
+  &.red {
+    color: #000000;
+    background-color: rgba(254,232,234,255); // Soft blue background
+    border-color: rgba(247,81,89,255); // Blue border color
   }
 }
 
@@ -246,12 +269,15 @@ pre {
  * Tables
  */
 table {
+  margin: 0 auto $spacing_unit;
   margin-bottom: $spacing-unit;
-  width: 100%;
+  width: auto;
   text-align: $table-text-align;
   color: $table-text-color;
   border-collapse: collapse;
   border: 1px solid $table-border-color;
+  border-radius: 16px;
+  overflow: hidden;
   tr {
     &:nth-child(even) {
       background-color: $table-zebra-color;
@@ -275,3 +301,15 @@ table {
             -ms-overflow-style: -ms-autohiding-scrollbar;
   }
 }
+
+/**
+ * Small Images
+ */
+.small-image {
+  width: 600px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
