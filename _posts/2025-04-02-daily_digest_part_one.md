@@ -13,7 +13,7 @@ confusion_matrix: "assets/images/dd_conf_matrix_bert_test.png"
 
 Telegram turned my media consumption habits and preferences upside down with the rollout and popularization of 'channels'. Channels are essentially just curated message boards, where only one party can post on the main board, while others might be able to comment/interact with it in a different way. Channels reporting news are extremely popular on Telegram, getting millions of subscribers. Consuming news through snippets that someone carefully tailored to your political bubble's status quo is just much more fun than reading long articles. Also it drives engagement growth. 
 
-Despite now reading news snippets, you still find yourself spending just as much time as you would were you to read the original article. That is because news happens all the time, and with a shorter pipeline from 'spawned' to 'reported', more and more things are now being posted that are not so newsworthy. All the news channels I am subscribed to produce more than 300 snippets per day combined. That is almost as many per day as Kanye's posts on Twitter - so, clearly, there is a problem.
+Despite now reading news snippets, you still find yourself spending just as much time as you would were you to read the original article. That is because news happens all the time, and with a shorter pipeline from 'spawned' to 'reported', more and more things are now being posted that are not so newsworthy. All the news channels I am subscribed to produce more than 300 snippets per day combined, which is almost as much as Kanye posts on Twitter. Some of the problems it creates:
 
 - You don't have time to critically assess what you read
 - You clutter your mind with ~~bullshit~~ unimportant things
