@@ -26,7 +26,7 @@ description_footer: >
 # If you want to use the latest Minima version on GitHub Pages, use the following setting and 
 # add a line comment on "theme: minima" above.
 remote_theme: jekyll/minima
-
+highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
