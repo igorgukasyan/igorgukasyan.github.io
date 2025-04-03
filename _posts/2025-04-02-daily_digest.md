@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Creating a no-fluff Telegram-based newsletter that you can customize – Part 1"
+title: "Creating a no-fluff Telegram-based newsletter that you can customize"
 date: 2025-04-02
 post_score_hist: "assets/images/dd_post_score_hist.png"
 post_size_hist: "assets/images/dd_post_size_hist.png"
@@ -173,7 +173,7 @@ $$F_1 = \frac{2 \cdot (\text{Precision} \cdot \text{Recall})}{\text{Precision} +
 
 $$\text{Precision} = \frac{TP}{TP + FP}, \quad \text{Recall} = \frac{TP}{TP + FN}$$
 
-**Doc2Vec (test):**
+**Doc2Vec (test data):**
 
 | Vector Size | Epochs | Balanced Accuracy | F1 Score |
 |-------------|--------|-------------------|----------|
@@ -197,6 +197,10 @@ $$\text{Precision} = \frac{TP}{TP + FP}, \quad \text{Recall} = \frac{TP}{TP + FN
 | Test    | 0.790             | 0.790    | 0.750    |
 
 
-### Closing thoughts
+### Creating the Bot 
+
+The Telegram bot that we need to make is rather simple, we just need to account for various situations (e.g., a user wants to resubscribe to a channel, no news marked as important, etc.) Full code can be found [here](https://github.com/igorgukasyan/daily_digest).
+
+### Closing Thoughts
 
 In the future, I would like to re-do this project with proper data labeling and model training. I believe that a 'great content filter' would be valuable and could be implemented in various ways across different platforms. If you feel like participating, either through labor, funding or in any other way, feel free to reach out.
